@@ -278,9 +278,11 @@ export default function Home() {
     width={32}
     height={32}
   />
-  <span className="text-white font-semibold text-lg">
-    Spotify
-  </span>
+ 
+  <a href="#top" className="text-xl font-bold tracking-tight hover:text-green-500 transition">
+        Spotify
+      </a>
+
 </div>
 
 
