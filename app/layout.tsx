@@ -34,12 +34,38 @@ export default function RootLayout({
     "
   />
 
+  {/* Navbar */}
+  <header className="fixed top-0 left-0 right-0 z-20 border-b border-white/10 bg-black/70 backdrop-blur">
+    <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      
+      {/* Spotify logo / text → scroll to top */}
+      <a href="#top" className="text-xl font-bold tracking-tight hover:text-green-500 transition">
+        Spotify
+      </a>
+
+      <nav className="hidden md:flex items-center gap-6 text-sm text-gray-300">
+        <a href="#features" className="hover:text-white">Features</a>
+        <a href="#trending" className="hover:text-white">Trending</a>
+        <a href="#premium" className="hover:text-white">Premium</a>
+      </nav>
+
+      <a
+        href="#premium"
+        className="bg-green-500 text-black px-5 py-2 rounded-full font-semibold hover:bg-green-400 transition"
+      >
+        Get Premium
+      </a>
+
+    </div>
+  </header>
+
   {/* Page Content */}
-  <div className="relative z-10">
+  <div className="relative z-10 pt-20">
     {children}
   </div>
 
 </body>
+
 
     </html>
   );
