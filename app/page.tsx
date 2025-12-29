@@ -3,7 +3,9 @@ import PremiumButton from "./components/PremiumButton";
 
 export default function Home() {
   return (
-    <main className="pt-24 min-h-screen bg-black text-white px-6">
+    
+    <main id="top" className="pt-24 min-h-screen bg-black text-white px-6">
+
 
       <div className="relative z-10">
   {/* your existing h1, p, buttons stay here */}
