@@ -271,7 +271,7 @@ export default function Home() {
     {/* Logo */}
    <div className="flex items-center gap-2">
   <Image
-    src="/spotify-logo.png"
+    src="/albums/spotify-logo.png"
     alt="Spotify Logo"
     width={32}
     height={32}
