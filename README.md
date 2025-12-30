@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎵 Spotify AI – UX-Focused Landing Page
+A Spotify-inspired, AI-themed landing page built using Next.js and Tailwind CSS, with a strong focus on UI consistency, button hierarchy, and premium-grade user experience.
+This project was completed as Task 3 during my internship at Future Interns.
 
-## Getting Started
+# 🚀 Live Demo
+🔗 https://spotify-redesign-yogesh.vercel.app/
+# 📂 GitHub Repository
+🔗 https://github.com/yogzxx16/FUTURE_FS_03
 
-First, run the development server:
+# 🛠 Tech Stack
+Next.js (App Router)
+TypeScript
+Tailwind CSS
+Vercel (Deployment)
 
-```bash
+# ✨ Key Features
+Consistent CTA hierarchy with premium actions visually prioritized
+Smooth scroll-to-section navigation
+AI-inspired abstract wave background with global visual continuity
+Clean, modern Spotify-style UI
+Fully responsive layout (desktop & mobile)
+Modular component structure
+Production-ready deployment on Vercel
+
+# 🎯 Project Focus
+This project intentionally focuses on frontend UX decisions, including:
+Button importance and visual hierarchy
+Layout spacing and readability
+Visual polish over unnecessary features
+Designing for how it feels, not just how it works
+⚠️ No real Spotify APIs or AI models are used.
+This is a UI/UX-focused frontend project
+
+# 📦 Run Locally
+Copy code
+Bash
+# Clone the repository
+git clone https://github.com/yogzxx16/FUTURE_FS_03.git
+
+# Navigate to project folder
+cd FUTURE_FS_03
+
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open http://localhost:3000 in your browser.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# 📖 What I Learned
+Importance of UX polish in real-world interfaces
+Designing consistent primary vs secondary actions
+Structuring layouts using Tailwind CSS
+Building and deploying production-ready Next.js apps
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# ⚠️ Disclaimer
+This project is a conceptual UI redesign inspired by Spotify.
+It is not affiliated with or endorsed by Spotify.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+#👤 Author
+Yogeshkumar S
+Frontend Developer | B.Tech IT Student
